@@ -33,6 +33,8 @@ $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 global $trendFilter;
 $trendFilter = array('PROPERTY_TREND' => '4');
 ?>
+    <h2>Текст </h2>
+    <h2>Много текста </h2>
 <h2>Тренды сезона</h2>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section",
